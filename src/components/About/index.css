@@ -1,0 +1,33 @@
+.about-header-container {
+  min-height: 100vh;
+  padding: 0;
+}
+
+.heading {
+  margin: 0;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.about-cart-lg {
+  display: none;
+}
+
+.about-cart-sm {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .about-cart-sm {
+    display: none;
+  }
+  .about-cart-lg {
+    display: block;
+  }
+}

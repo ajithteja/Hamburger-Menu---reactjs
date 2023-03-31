@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.home-header-container {
+  min-height: 100vh;
+  padding: 0;
+}
+
+.heading {
+  margin: 0;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.home-cart-lg {
+  display: none;
+}
+
+.home-cart-sm {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .home-cart-sm {
+    display: none;
+  }
+  .home-cart-lg {
+    display: block;
+  }
+}
